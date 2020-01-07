@@ -1,0 +1,59 @@
+.s1l3u8z6{background-color:#2090EA;color:white;padding:8px 0;}.s1l3u8z6 .brand{font-size:28px;font-weight:400;color:white;}.s1l3u8z6 .brand:hover{color:white;-webkit-text-decoration:none;text-decoration:none;}.s1l3u8z6 .brand img{bottom:2px;height:32px;position:relative;width:32px;}
+
+.sooxe2f .octicon-search{color:#2090EA;font-size:14px;position:relative;left:-1px;}.sooxe2f .input-group-lg .octicon{font-size:24px;}.sooxe2f .input-group-lg input{font-weight:400;}
+
+.s6bnemm{text-align:center;-webkit-transition:box-shadow 0.15s ease-in-out;transition:box-shadow 0.15s ease-in-out;}.s6bnemm .card-img-top{height:72px;width:72px;margin-top:24px;margin-bottom:24px;margin-left:auto;margin-right:auto;-webkit-transition:-webkit-transform 0.15s ease-in-out;-webkit-transition:transform 0.15s ease-in-out;transition:transform 0.15s ease-in-out;-webkit-filter:var(--s6bnemm-0);filter:var(--s6bnemm-0);}.s6bnemm .card-header{border-bottom:none;border-top:1px solid rgba(0,0,0,0.125);color:black;font-size:14px;font-weight:400;white-space:nowrap;overflow:hidden;position:relative;}.s6bnemm .card-header::after{background:linear-gradient(90deg,rgba(247,247,247,0) 0%,rgba(247,247,247,1) 50%);border-bottom-right-radius:4px;bottom:0;content:' ';display:block;pointer-events:none;position:absolute;right:0;top:0;width:15%;}.s6bnemm:hover{box-shadow:1px 1px 4px rgba(0,0,0,0.2);}.s6bnemm:hover *{color:black;}.s6bnemm:hover .card-img-top{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);}
+
+.soapbay a:hover{-webkit-text-decoration:none;text-decoration:none;}
+
+.sahlm9h{border:1px solid rgba(0,0,0,.125);border-radius:4px;position:relative;}.sahlm9h .emoji{position:absolute;top:2px;left:6px;opacity:0.75;}.sahlm9h img{width:72px;height:72px;}@media screen and (min-width:576px){.sahlm9h img{width:128px;height:128px;}}
+
+.s11r72gg{background-color:white;}@media screen and (min-width:576px){.s11r72gg{border-radius:4px;border:1px solid #c8ceda;}}.s11r72gg .list-group-item{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;font-size:14px;}.s11r72gg .list-group-item .octicon{font-size:20px;margin-right:20px;}.s11r72gg .octicon-globe{color:#2090EA;}.s11r72gg .octicon-file-directory{color:#2090EA;}.s11r72gg .octicon-alert{color:#2090EA;}.s11r72gg .octicon-tag{color:#2090EA;}.s11r72gg .title{font-size:32px;font-weight:600;}@media screen and (min-width:768px){.s11r72gg .list-group-item{font-size:inherit;}.s11r72gg .list-group-item .octicon{font-size:20px;margin-right:20px;}.s11r72gg .title{font-size:42px;font-weight:600;}}.s11r72gg .author{font-size:16px;font-weight:400;opacity:0.6;}.s11r72gg strong{font-weight:600;}
+
+.flkxylh{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}
+
+.fu9i7p8{background-color:#F6F7F9;border-top:1px solid #e7e9ef;width:100%;}
+.f4rr4yy ul{list-style:none;margin:0;padding:0;}.f4rr4yy h1{font-size:32px;font-weight:400;}.f4rr4yy a{font-size:14px;}.f4rr4yy p{font-size:14px;font-weight:300;}.f4rr4yy strong{font-weight:400;}@media screen and (min-width:768px){.f4rr4yy a{font-size:16px;}.f4rr4yy p{font-size:16px;}}
+
+.c1b6b6t9{background-color:white;}@media screen and (min-width:576px){.c1b6b6t9{border-radius:4px;border:1px solid #c8ceda;}}.c1b6b6t9 .invalid-feedback{display:block;}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 300;
+  height: 100%;
+}
+
+body {
+  background-color: #2090EA;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: #2090EA;
+}
+
+#root {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+/*# sourceMappingURL=styles-46b35ead3790087058b3.css.map*/
