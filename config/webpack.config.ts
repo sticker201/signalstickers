@@ -15,6 +15,12 @@ import FetchStickerDataPlugin from 'plugins/FetchStickerDataPlugin';
  */
 const PKG_ROOT = path.resolve(__dirname, '..');
 
+/**
+ * This is used/injected in various places throughout the app to support hosting
+ * on GitHub Pages under a sub-directory.
+ */
+const BASENAME = '/signalstickers/';
+
 
 export default (env: string, argv: any): webpack.Configuration => {
   const config: webpack.Configuration = {};
@@ -136,7 +142,12 @@ export default (env: string, argv: any): webpack.Configuration => {
 
   config.plugins.push(new webpack.NamedModulesPlugin());
 
+  config.plugins.push(new webpack.DefinePlugin({
+    'process.env.BASENAME': `"${BASENAME}"`
+  }));
+
   config.plugins.push(new HtmlWebpackPlugin({
+    baseUrl: BASENAME,
     filename: 'index.html',
     template: path.resolve(PKG_ROOT, 'src', 'index.html'),
     inject: true
@@ -221,9 +232,12 @@ export default (env: string, argv: any): webpack.Configuration => {
 
   if (argv.mode === 'development') {
     config.devServer = {
+      publicPath: '/signalstickers/',
       port: 8080,
       compress: true,
-      historyApiFallback: true,
+      historyApiFallback: {
+        index: '/signalstickers/'
+      },
       disableHostCheck: true,
       host: '0.0.0.0',
       // hot: true,
